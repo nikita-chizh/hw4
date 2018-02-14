@@ -16,7 +16,7 @@ set_target_properties(print_ip PROPERTIES
 install(TARGETS print_ip RUNTIME DESTINATION bin)
 
 set(CPACK_GENERATOR DEB)
-set( CPACK_PACKAGE_FILE_NAME allocator)
+set( CPACK_PACKAGE_FILE_NAME print_ip)
 set(CPACK_PACKAGE_CONTACT nikita1993chizh@gmail.com)
 include(CPack)
 enable_testing()
