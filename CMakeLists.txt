@@ -13,6 +13,7 @@ set_target_properties(print_ip PROPERTIES
         COMPILE_OPTIONS -Wpedantic -Wall -Wextra
         )
 
+
 install(TARGETS print_ip RUNTIME DESTINATION bin)
 set(CPACK_GENERATOR DEB)
 set(CPACK_PACKAGE_VERSION_MAJOR "${PROJECT_VERSION_MAJOR}")
