@@ -9,4 +9,4 @@ deploy:
   provider: script
   skip_cleanup: true
   script:
-  - curl -T Allocator-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb -unikita-chizh:$BINTRAY_API_KEY "https://api.bintray.com/content/nikita-chizh/Otus/print_ip/$TRAVIS_BUILD_NUMBER/Allocator-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb;deb_distribution=trusty;deb_component=main;deb_architecture=amd64;publish=1"
+  - curl -T Print_IP-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb -unikita-chizh:$BINTRAY_API_KEY "https://api.bintray.com/content/nikita-chizh/Otus/print_ip/$TRAVIS_BUILD_NUMBER/Print_IP-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb;deb_distribution=trusty;deb_component=main;deb_architecture=amd64;publish=1"
